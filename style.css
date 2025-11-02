@@ -1,0 +1,77 @@
+* {
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.forgot:hover{
+    color: rgb(123, 0, 255);
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('img.jpg');
+}
+
+.loginbox {
+    width: 50vh;
+    height: 51vh;
+    background-color: rgba(240, 248, 255, 0.077);
+    border-radius: 40px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.351);
+}
+
+.loginbox h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgba(2, 45, 65, 0.77);
+}
+
+.box {
+    padding: 30px 0;
+    padding-bottom: 0;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+#userNaame, #password {
+    width: 100%;
+    height: 60px;
+    border: 2px solid rgba(0, 0, 0, 0.189);
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.216);
+}
+
+.remember {
+    margin: 2px;
+    padding: 10px 0;
+}
+
+.forgot {
+    margin-left: 100px;
+    color:rgba(0, 255, 255, 0.663)
+}
+
+.login {
+    width: 100px;
+    height: 60px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.112);
+    text-align: center;
+    background-color: rgba(254, 254, 254, 0.038)
+}
+
+
+.buttonBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.login:hover {
+    background-color: rgba(240, 248, 255, 0.271);
+}
